@@ -2,7 +2,7 @@ version: '3.7'
 services:
   java-app:
     build: .
-    image: openjdk:8-slim
+    image: java-app:1.0
     ports:
       - '9999:9999'
 
